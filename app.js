@@ -37,10 +37,10 @@ app.post("/", function(req, res) {
   }
 
   const jsonData = JSON.stringify(data);
-  const url = "https:us18.api.mailchimp.com/3.0/lists/788fc36e5d"
+  const url = "https:us18.api.mailchimp.com/3.0/lists/listidhere"
   const options = {
     method:"POST",
-    auth: "marco5:36eb40f760658ee3cddd88dd761e2441-us18"
+    auth: "apikeyhere"
   }
 
   const request = https.request(url,options,function(response){
@@ -66,5 +66,3 @@ app.post("/failure",function(req, res){
 })
 
 
-//CHIMPKEY 36eb40f760658ee3cddd88dd761e2441-us18
-//list id 788fc36e5d
