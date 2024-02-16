@@ -1,4 +1,4 @@
-public api
+
 edit this part in the app.js with correspoding listid and apikey from mail chimp
 
   const jsonData = JSON.stringify(data);
@@ -9,3 +9,4 @@ edit this part in the app.js with correspoding listid and apikey from mail chimp
   }
 
   
+![image](https://github.com/darkmagic2/Newsletter-signupApp/assets/13827528/27e1f424-f16a-47e3-be1b-1d4865775853)
